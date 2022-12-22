@@ -11,8 +11,7 @@
         fod.complete(function (data) {
             // Fetch the properties from the JSON response and write to the page.
             addText("HardwareName: " + data.device["hardwarename"]);
-            addText("SetHeaderHardwareAccept-CH: " + data.device["setheaderhardwareaccept-ch"]);
-            addText("SetHeaderBrowserAccept-CH: " + data.device["setheaderbrowseraccept-ch"]);
+           
             addText("BrowserName: " + data.device["browsername"]);
         });
     }
